@@ -59,7 +59,7 @@ def upload_video(filename=None, description='', cookies='', schedule: datetime.d
         )
 
 
-def upload_videos(videos: list = None, auth: AuthBackend = None, proxy: dict = None, browser='firefox',
+def upload_videos(videos: list = None, auth: AuthBackend = None, proxy: dict = None, browser='chrome',
                   browser_agent=None, on_complete=None, headless=False, num_retries : int = 1, *args, **kwargs):
     """
     Uploads multiple videos to TikTok
