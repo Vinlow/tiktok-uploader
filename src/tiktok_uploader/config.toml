@@ -57,7 +57,8 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 	duet = "//label[.='Duet']/following-sibling::div/input"
 	stitch = "//label[.='Stitch']/following-sibling::div/input"
 
-	post = "/html/body/div[1]/div/div/div/div/div[2]/div[2]/div[8]/div[2]/button"
+	post2 = "/html/body/div[1]/div/div/div/div/div[2]/div[2]/div[8]/div[2]/button"
+	post = "//div[contains(text(), 'Post')]"
 	post_confirmation = "//div[contains(text(), 'Manage your posts')]"
 
 	[selectors.schedule]
